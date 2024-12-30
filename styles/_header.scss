@@ -1,0 +1,67 @@
+
+
+
+header {
+ 
+    display: flex;
+   align-items: center;
+  justify-content: start;
+gap:  20px;
+padding: 40px 20px;
+ 
+
+       
+
+
+    h1 {
+        font-weight: 600;
+        font-size: 21px;
+        color: rgba(5, 7, 41, 1);
+
+
+    }
+
+    input {
+        width: 630px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        padding-left: 20px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .qongiro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(94, 141, 234, 1);
+
+        }
+    }
+}
+
+
+.last {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+
+   h2 {
+    font-weight: 600;
+    font-size: 21px;
+    color: rgba(5, 7, 41, 1);
+   }
+}

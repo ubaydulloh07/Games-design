@@ -1,0 +1,59 @@
+
+
+
+aside {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    background: rgba(255, 255, 255, 1);
+
+    width: 200px;
+  height: 150vh;
+    padding: 30px;
+
+    .aside-logo {
+
+        position: absolute;
+        top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aside-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+        position: absolute;
+        top: 190px;
+
+
+        .menus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(236, 239, 245, 1);
+            transition: all 0.3s ease;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           transition: all 0.3s ease;
+            &:hover {
+              
+                padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(236, 239, 245, 1);
+            }
+        }
+    }
+}

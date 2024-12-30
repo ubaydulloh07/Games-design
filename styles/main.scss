@@ -1,0 +1,35 @@
+
+@import "./header";
+@import "./aside";
+@import "./section";
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background: rgba(236, 239, 245, 1);
+    width: 1440px;
+   gap: 50px;
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
